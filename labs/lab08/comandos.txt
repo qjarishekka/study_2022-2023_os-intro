@@ -1,0 +1,37 @@
+touch file.txt
+sudo ls -la /etc > file.txt
+
+touch conf.txt
+grep conf file.txt > conf.txt
+
+
+ls -l c*
+ls c*
+find c*
+find c* > ejemplo.txt
+
+
+
+find /etc -name "h*" -printf
+
+touch ~/logfile
+find ~ -name "log*" |sort > logfile &
+
+sudo kill %2
+rm logfile
+
+gedit &
+
+ps aux
+
+man kill
+
+kill 2
+
+df -vi
+
+du -a ~/
+
+find
+
+
