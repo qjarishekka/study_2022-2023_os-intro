@@ -1,0 +1,18 @@
+while getopts a:b:c:d:e:f:g:h:i:j:k:l opc
+do case $opc in
+
+a) echo $OPTARG;;
+b) echo $OPTARG;;
+c) echo $OPTARG;;
+d) echo $OPTARG;;
+e) echo $OPTARG;;
+f) echo $OPTARG;;
+g) echo $OPTARG;;
+h) echo $OPTARG;;
+i) echo $OPTARG;;
+j) echo $OPTARG;;
+k) echo $OPTARG;;
+l) echo $OPTARG;;
+
+esac
+done
